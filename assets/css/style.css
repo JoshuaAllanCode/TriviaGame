@@ -1,0 +1,46 @@
+body {
+	height: 100%;
+	background: url('../images/rorshach.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.page-header {
+	text-align: center;
+	border-bottom: none;
+}
+
+#timer, #result, #question, #answers {
+	text-align: center;
+	height: 40px;
+}
+
+#timer {
+	background-color: blue;
+	border-radius: 7px;
+}
+
+button {
+	height: 30px;
+	width: 500px;
+}
+
+.btn {
+	margin-bottom: 20px;
+	background-color: green;
+}
+
+#start, #reset {
+	background-image: url('../images/triviaButton.jpeg');
+	background-repeat: no-repeat;
+    background-position: center center;
+	height: 100px;
+	width: 100px;
+}
+
+.displayNone {
+	display: none;
+}
